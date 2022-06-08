@@ -1,0 +1,184 @@
+.jumbotron {
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(104deg, rgb(0, 0, 0) 35%, rgb(114, 18, 18) 80%, #ec1c24 100%); */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(104deg, rgba(0, 0, 0, 1) 48%, rgba(104, 90, 81, 1) 96%, rgba(104, 90, 81, 1) 100%);
+  min-height: 105vh;
+  color: whitesmoke;
+  padding-top: 15rem;
+  margin-top: -5rem;
+}
+
+.nav-link {
+  color: white;
+  margin-left: 0.3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/* .active {
+  background-color: yellow;
+  color: black;
+  transition: 0.1ms;
+} */
+
+.color-primary {
+  background-color: #ec1c24;
+}
+
+#rasa {
+  padding-top: 7rem;
+}
+
+.navbar {
+  z-index: 99;
+}
+
+.image-rasa {
+  width: 300px;
+  border-radius: 10%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+footer {
+  padding: 1rem;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-bottom: -1rem;
+}
+
+.myVideo {
+  width: 50%;
+  clip-path: polygon(34% 0, 64% 11%, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+
+.caroselku {
+  background-color: #ec1c24;
+  width: 70rem;
+}
+
+.background-carousel {
+  background: url(../img/background.png);
+  /* opacity: 50%; */
+}
+
+.iklan {
+  margin-top: 10rem;
+  background-color: black;
+  padding: 4rem;
+  color: whitesmoke;
+}
+
+.gambar-iklan {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.space {
+  background-image: url(../img/background.png);
+  display: block;
+  height: 11rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rowdies", cursive;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.lead {
+  font-size: 2rem;
+}
+
+/* mobile screen */
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+  .myVideo {
+    width: 15rem;
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    background: #000;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myVideo {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-rasa {
+    width: 100%;
+    border-radius: 0;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .content-rasa {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content-rasa {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .caroselku {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: black !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .jumbotron {
+    height: auto;
+    padding-top: 11rem;
+    padding-bottom: 2rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 2.3rem;
+  }
+
+  .jumbotron .lead {
+    font-size: 1.5rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+}
